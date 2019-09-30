@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-09-30 11:58:53">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>SV_Devops_Application</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>8a1883c01b5480509614ff37dc4bcb7c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-09-30 11:58:51</sys_created_on>
+<sys_id>eb7ac3841b5480509614ff37dc4bcb89</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-09-30 11:58:51</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_fix_a6480b041b5480509614ff37dc4bcb37</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_fix"&gt;&lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;before&gt;false&lt;/before&gt;&lt;description/&gt;&lt;flush_cache&gt;false&lt;/flush_cache&gt;&lt;name&gt;DevopsApplicationName&lt;/name&gt;&lt;record_for_rollback&gt;false&lt;/record_for_rollback&gt;&lt;run_once&gt;true&lt;/run_once&gt;&lt;script&gt;&lt;![CDATA[gs.log("Hey");]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_fix&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:49:45&lt;/sys_created_on&gt;&lt;sys_id&gt;a6480b041b5480509614ff37dc4bcb37&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;DevopsApplicationName&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_fix_a6480b041b5480509614ff37dc4bcb37&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:49:45&lt;/sys_updated_on&gt;&lt;unloadable&gt;false&lt;/unloadable&gt;&lt;/sys_script_fix&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1817608175</payload_hash>
+<remote_update_set display_value="SV_Devops_Application">eb7ac3841b5480509614ff37dc4bcb89</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-09-30 11:58:51</sys_created_on>
+<sys_id>af7ac3841b5480509614ff37dc4bcb89</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d82014a450000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-09-30 11:58:51</sys_updated_on>
+<table/>
+<target_name>DevopsApplicationName</target_name>
+<type>Fix Script</type>
+<update_domain>global</update_domain>
+<update_guid>8a688704595480509ecbd8f8d017b91b</update_guid>
+<update_guid_history>8a688704595480509ecbd8f8d017b91b:1817608175</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
