@@ -1,0 +1,23 @@
+{
+  "access": "package_private",
+  "active": true,
+  "api_name": "global.SnDevTools",
+  "client_callable": false,
+  "description": null,
+  "name": "SnDevTools",
+  "script": {
+    "____see": "sn\\Global\\Script Include\\active_true\\global.SnDevTools.js"
+  },
+  "sys_class_name": "sys_script_include",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-10-10 06:03:45",
+  "sys_id": "6168dd5f1b10c8509614ff37dc4bcb21",
+  "sys_mod_count": 1,
+  "sys_name": "SnDevTools",
+  "sys_package": "global",
+  "sys_policy": null,
+  "sys_scope": "global",
+  "sys_update_name": "sys_script_include_6168dd5f1b10c8509614ff37dc4bcb21",
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-10-10 06:21:13"
+}
