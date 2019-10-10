@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-10-10 12:08:01">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>SV_CollisionAvoidance</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>d087591f1b10c8509614ff37dc4bcb85</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-10-10 12:08:00</sys_created_on>
+<sys_id>8f7c2a9f1b14c8509614ff37dc4bcb3e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-10-10 12:08:00</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_94ea51131b50c8509614ff37dc4bcbe9</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sys_metadata&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Avoid Collision&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	gs.log("Inside the BR");
+	new SnDevTools().sys_metadata_Display(current);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-10 06:18:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;94ea51131b50c8509614ff37dc4bcbe9&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Avoid Collision&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_94ea51131b50c8509614ff37dc4bcbe9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-10 06:22:34&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before_display&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=94ea51131b50c8509614ff37dc4bcbe9"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2059710749</payload_hash>
+<remote_update_set display_value="SV_CollisionAvoidance">8f7c2a9f1b14c8509614ff37dc4bcb3e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-10-10 12:08:00</sys_created_on>
+<sys_id>0b7c2a9f1b14c8509614ff37dc4bcb3f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16db45556a30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-10-10 12:08:00</sys_updated_on>
+<table>sys_metadata</table>
+<target_name>Avoid Collision</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>b66d1593f550c850afb4e54eddd7db6a</update_guid>
+<update_guid_history>b66d1593f550c850afb4e54eddd7db6a:-2059710749,e96c1153d250c850c4dd7f39749c1abb:1266110526</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_1487ed9b1b50c8509614ff37dc4bcb77</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sys_user&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;TestingCollision&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-10 07:08:14&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1487ed9b1b50c8509614ff37dc4bcb77&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;TestingCollision&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_1487ed9b1b50c8509614ff37dc4bcb77&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-10 07:08:14&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1487ed9b1b50c8509614ff37dc4bcb77"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-720876756</payload_hash>
+<remote_update_set display_value="SV_CollisionAvoidance">8f7c2a9f1b14c8509614ff37dc4bcb3e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-10-10 12:08:00</sys_created_on>
+<sys_id>437c2a9f1b14c8509614ff37dc4bcb3f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16db47f26e90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-10-10 12:08:00</sys_updated_on>
+<table>sys_user</table>
+<target_name>TestingCollision</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>3fd725dbde50c85020902aef0dcc580f</update_guid>
+<update_guid_history>3fd725dbde50c85020902aef0dcc580f:-720876756</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_6168dd5f1b10c8509614ff37dc4bcb21</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.SnDevTools&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;SnDevTools&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var SnDevTools = Class.create();
+SnDevTools.prototype = {
+    initialize: function() {
+    },
+
+/**
+    * Description
+    * 
+    * @param {any} current
+    * @returns {undefined}
+    */
+    sys_metadata_Display: function (current) {
+		gs.log("Script Include is called");
+        var self = this;
+        if (gs.nil(current))
+            return;
+
+        if (!(current.canWrite() || current.canDelete()) || !gs.isInteractive() || !gs.hasRole('admin')) // no need to display a message as user can not change the record or the record is new
+            return;
+
+        var activeUpdateSet = self._getActiveUpdateSetOfRecord(current);
+        if (activeUpdateSet) {
+            gs.addErrorMessage(['This record is already in another update set: ', '&lt;a href="', activeUpdateSet.update_set.getRefRecord().getLink(true), '"&gt;', activeUpdateSet.getElement('update_set').getDisplayValue(), ' [', activeUpdateSet.getElement('application').getDisplayValue(), ']', '&lt;/a&gt;!'].join(''));
+
+            // in case of display, make the record read only
+            current.setValue('sys_policy', 'read');
+
+            // hide all UI actions
+            current.canCreate = function () {
+                return false;
+            };
+            current.canRead = function () {
+                return false;
+            };
+            current.canWrite = function () {
+                return false;
+            };
+            current.canDelete = function () {
+                return false;
+            };
+
+        }
+    },
+
+    /**
+     * check if a record (sys_metadata) is already in another update set than the
+     * currently active one. search for the same file in other update sets which are 'in progress'.
+     * 
+     * @param {glideRecord} current a sys_metadata glideRecord
+     * @returns {glideRecord} the sys_update_xml glideRecord
+     */
+    _getActiveUpdateSetOfRecord: function (current) {
+        var self = this;
+        var out = null;
+
+        if (gs.nil(current))
+            return out;
+
+        var currentUpdateSetID = gs.getPreference('sys_update_set'),
+            updateSetXML = new GlideRecord('sys_update_xml'),
+            query = ['name=', current.sys_update_name,
+                '^update_set!=', currentUpdateSetID,
+                '^update_set.state=in progress'
+            ].join('');
+
+        updateSetXML.addEncodedQuery([query, '^update_set.application=Global^update_set.is_default=false'].join(''));
+
+        updateSetXML.orderByDesc('sys_updated_on');
+        updateSetXML.setLimit(1);
+        updateSetXML._query();
+        if (updateSetXML._next()) {
+            out = updateSetXML;
+        }
+        return out;
+    },	
+
+    type: 'SnDevTools'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-10 06:03:45&lt;/sys_created_on&gt;&lt;sys_id&gt;6168dd5f1b10c8509614ff37dc4bcb21&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;SnDevTools&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_6168dd5f1b10c8509614ff37dc4bcb21&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-10 06:21:13&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1264167066</payload_hash>
+<remote_update_set display_value="SV_CollisionAvoidance">8f7c2a9f1b14c8509614ff37dc4bcb3e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-10-10 12:08:00</sys_created_on>
+<sys_id>8f7c2a9f1b14c8509614ff37dc4bcb3f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16db4541aa10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-10-10 12:08:00</sys_updated_on>
+<table/>
+<target_name>SnDevTools</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>071dd9535150c8507c9fdd950c86b0ae</update_guid>
+<update_guid_history>071dd9535150c8507c9fdd950c86b0ae:-1264167066,43199d5f4710c850637faa2c33b6fdb8:-1098654098</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_b0acd9531b50c8509614ff37dc4bcba6</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Testing Collision&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+	alert("Hello");
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-10 06:19:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b0acd9531b50c8509614ff37dc4bcba6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Testing Collision&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_b0acd9531b50c8509614ff37dc4bcba6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-10 06:19:44&lt;/sys_updated_on&gt;&lt;table&gt;sys_user&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-61915616</payload_hash>
+<remote_update_set display_value="SV_CollisionAvoidance">8f7c2a9f1b14c8509614ff37dc4bcb3e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-10-10 12:08:00</sys_created_on>
+<sys_id>cb7c2a9f1b14c8509614ff37dc4bcb3f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16db452bdb00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-10-10 12:08:00</sys_updated_on>
+<table>sys_user</table>
+<target_name>Testing Collision</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>51cc5113e450c850376114b12189be5c</update_guid>
+<update_guid_history>51cc5113e450c850376114b12189be5c:-61915616</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
