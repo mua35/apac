@@ -1,0 +1,25 @@
+{
+  "active": true,
+  "before": false,
+  "description": null,
+  "flush_cache": false,
+  "name": "Test Devops",
+  "record_for_rollback": false,
+  "run_once": true,
+  "script": {
+    "____see": "sn\\Global\\Fix Script\\active_true\\Test Devops.js"
+  },
+  "sys_class_name": "sys_script_fix",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-11-11 07:18:23",
+  "sys_id": "0bfc966d1b8d40109614ff37dc4bcbc2",
+  "sys_mod_count": 0,
+  "sys_name": "Test Devops",
+  "sys_package": "global",
+  "sys_policy": null,
+  "sys_scope": "global",
+  "sys_update_name": "sys_script_fix_0bfc966d1b8d40109614ff37dc4bcbc2",
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-11-11 07:18:23",
+  "unloadable": false
+}
